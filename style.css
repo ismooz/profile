@@ -1,0 +1,133 @@
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+
+/* CSS */
+
+body {
+  background-color:#ECE9E6;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  color: rgb(0,0,0);
+  font-size: 16px;
+  line-height: 1.6em;
+}
+
+h1, h2, h3 {
+  color: rgb(33, 97, 140);
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  line-height: 1.6em;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+a {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  text-decoration: none;
+  color: rgb(52, 152, 219);
+}
+
+a:hover {
+  color: rgb(33, 97, 140);
+}
+
+/* classes */
+
+.container {
+  margin: 0 auto;
+  width: 700px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.card-white {
+  background-color: white;
+  box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 30px auto;
+  padding: 40px;
+
+}
+.img-circle {
+  border-radius: 50%;
+  width: 10em;
+}
+.img-presentation {
+  box-shadow: 5px 5px 30px rgba(0,0,0,0.1);
+}
+
+.img-animation {
+  -webkit-transition: -webkit-transform .8s ease-in-out;
+  transition: transform .8s ease-in-out;
+}
+
+.img-animation:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.btn-blue {
+  background-color: rgb(52, 152, 219);
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.btn-blue:hover {
+  background-color: white;
+  color: rgb(52, 152, 219);
+  border: 2px solid rgb(52, 152, 219);
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+/* id */
+
+#footer {
+  font-size: 40px;
+}
+
+#introduction {
+  margin-bottom: 40px;
+}
+
