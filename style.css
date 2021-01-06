@@ -1,12 +1,12 @@
 @import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,700,800|Poppins:300,400,500,700");
 
 /* CSS */
 
 body {
   background-color:#ECE9E6;
   font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   color: rgb(0,0,0);
   font-size: 16px;
   line-height: 1.6em;
